@@ -1,0 +1,225 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\usepackage{graphicx} 
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{units}
+\usepackage{lineno}
+\usepackage{rotating}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{ulem}
+\usepackage{longtable}
+\newcommand{\gt}{$>$}
+\moderncvstyle{banking}    % casual' (default), 'classic', 'oldstyle' and 'banking'
+\usepackage{url}
+\moderncvcolor{blue}     % 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\definecolor{color1}{rgb}{0, 0, 0}
+
+
+\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,bindingoffset=0cm]{geometry}
+
+\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\maketitlenamewidth}{10cm}     % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks.
+%\usepackage{natbib}
+%\def\@biblabel{\arabic{enumiv}} 
+
+
+
+
+% customize the enumerate environments (i.e. enumerate, itemize, ...)
+\usepackage{enumitem}
+\setlist{nolistsep}
+
+
+
+\firstname{Tao}
+\familyname{Yang}
+\title{Research statement}
+%\email{dgerosa@caltech $\;\;\circ$ \today}
+\phone{+86~15652195895}
+\email{yangtao2017@bnu.edu.cn $\;\;\bullet\;\;$ \today}
+
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\newcommand{\mnras}{Monthly Notices of the Royal Astronomical Society}
+\newcommand{\mnrasl}{Monthly Notices of the Royal Astronomical Society Letters}
+\newcommand{\prd}{Physical Review D}
+\newcommand{\prl}{\textbf{Physical Review Letters}} % Stress PRL with bf
+\newcommand{\cqg}{Classical and Quantum Gravity}
+\newcommand{\aap}{Astronomy \& Astrophysics}
+
+
+\long\def\suppress#1\endsuppress{%
+  \begingroup%
+    \tracinglostchars=0%
+    \let\selectfont=\nullfont
+    \nullfont #1\endgroup}
+
+
+\fancypagestyle{headonly}{
+\fancyfoot{}
+\fancyfoot[r]{\textcolor{color2}{\thepage}}
+\fancyhead{}
+}
+
+\begin{document}
+\pagestyle{headonly}
+
+
+\maketitle
+
+
+
+
+
+
+
+
+
+My current research interests focus on Gravitational-Wave (GW) physics and the strong gravitational lensing. Having done some researches in cosmology and  obtained rich experiences on data analysis methods such as Gaussian process (GP) and Markov Chain Monte Carlo (MCMC), I turned to work on the researches about using the gravitational waves as the standard sirens to probe the cosmology in the last two years of my PhD period. Since 2018, I start to focus on the strong gravitational lensing physics. Recently, I cooperated with my postdoctoral advisor and finished one paper on using the time-delay of strong lensed gravitational waves as a new probe to test the gravity theory. The gravitational waves and the strong gravitational lensing related to Cosmology and  Astrophysics are the main topics which I will go on focusing in the future. 
+\vspace{5mm}
+
+
+
+\section{\textcolor{color1}{\textbf{Introduction to my previous researches}}}
+
+\vspace{2mm}
+\textcolor{color1}{\textbf{Probe the cosmolgy in a model-independent approach~\cite{Cai:2015zoa,Cai:2015pia,Cai:2016vmn}}}
+Various observations such as type-Ia supernova (SNIa)~\cite{Riess:1998cb,Perlmutter:1998np,Suzuki:2011hu,Betoule:2014frx}, the temperature and polarization anisotropy power spectrum of the cosmic microwave background (CMB) radiation~\cite{Hinshaw:2012aka,Ade:2015xua}, and weak gravitational lensing~\cite{Kilbinger:2008gk} have all indicated a Universe with an accelerated expansion. A possible explanation of this cosmic acceleration is provided by the introduction of a fluid with negative pressure called dark energy. The concordant cosmological model $\Lambda$CDM is faced with the fine-tuning and the coincidence problem. 
+Also, from the observational aspects, there is a strong tension between the value of the Hubble constant derived from the CMB~\cite{Ade:2015xua} and the value from local measurements~\cite{Riess:2011yx}. Understanding the physical property of dark energy is one of the main challenges of modern cosmology. Thus inspires me to consider different dark energy model, use various data analysis approach and data sets to probe the cosmological model.
+
+\vspace{2mm}
+\noindent
+In the first two years of my Doctoral period, I focus on using the statistical and numerical method to analyse the Cosmology data such as the Supernovae, cosmic chronometer, CMB and the future Dark Energy Survey (DES) with a model-independent way. The main method I use is the Gaussian Process (GP) which allows one to reconstruct a function and its derivatives from data without assuming a parametrization for it.
+Thus I can constrain or test such as the dynamics of Dark Energy, the interaction between Dark Energy and Cold Dark Matter, the cosmic curvature, and the constancy of the speed of light in a model-independent way, see my previous work~\cite{Cai:2015zoa,Cai:2015pia,Cai:2016vmn}. In order to demonstrate the ability of the GP method and to check the precision I also simulate the data of the future DES.
+
+\vspace{2mm}
+\noindent
+\textcolor{color1}{\textbf{Gravitational waves as the standard sirens to probe the Cosmoloy~\cite{Cai:2016sby,Cai:2017yww,Yang:2017bkv,Cai:2017aea}}} On 11 February 2016, the Laser Interferometer Gravitational Wave Observatory (LIGO) collaboration reported the first direct detection of the gravitational wave source GW150914~\cite{Abbott:2016blz}, which opened a new observational window to explore our universe. Moreover, the following event GW170817 from a binary neutron star combined with the electromagnetic (EM) counterpart announced the beginning of golden era of multi-messenger astronomy. In 1986, Schutz showed that it is possible to determine the Hubble constant from gravitational wave (GW) observations~\cite{Schutz:1986gp}.
+Unlike the traditional EM observations, GWs as the standard sirens from binary systems encode absolute distance information. We can measure the luminosity distance $d_L$ directly, without the need of the cosmic distance ladder: standard sirens are self-calibrating. Assuming other techniques are available to obtain the redshift  of a GW event, for example, we can measure the redshift through the identification of an accompanying EM signal; we can get the $d_L-z$ (luminosity distance-redshift) relation. Thus we can use the GW as an alternative source to constrain the expansion history of the Universe and the cosmological parameters and it can also be a cross-check to the EM measurements.
+
+\vspace{2mm}
+\noindent
+Since the data sets of GW events are not enough, we should forecast the ability of future GW detects to constrain of the cosmological parameters. In paper~\cite{Cai:2016sby}, I simulated a series of GW data sets detected by the third-generation ground based GW detector Einstein Telescope (ET), explored
+how accurately it will be possible to measure the background cosmological parameters such as the Hubble constant, the dark matter density parameter, and the equation of state of Dark Energy. Adopt the detector's noise power spectral density, we can use the fisher matrix to calculate the inferred distance uncertainty. Then we use the Gaussian Process in a model-independent manner to constrain the equation of state and the standard Markov Chain Monte Carlo approach for the constraints the combinations of Hubble constant and dark matter density parameter. Those
+results show that GWs as the standard sirens to probe the cosmological parameters can provide an
+independent and complementary alternative to current EM experiments.
+
+\vspace{2mm}
+\noindent
+Other works I did related to the GW standard sirens include the reconstruction of the interaction between dark energy and dark matter using LISA~\cite{Cai:2017yww}, test of cosmic distance duality relationship from GW detected by ET and strong lensed quasar~\cite{Yang:2017bkv}, probing the cosmic anisotropy using ET, LISA and DECIGO~\cite{Cai:2017aea}. These all show that the GWs as the standard sirens can provide us a new tool to probe our Cosmology.
+
+\vspace{2mm}
+\noindent
+\textcolor{color1}{\textbf{Strong gravitational lensing to test the gravity~\cite{Yang:2018bdf}}}
+Einstein's General Relativity (GR) has been precisely tested on
+Solar System scale. However, the long-range nature of gravity on the extra-galactic scale is still poorly
+understood. Testing gravity with higher accuracy has been continuously pursued during the past decades. The purpose of these activities are not only  to examine
+a specific model, but also to reveal the nature of gravitational phenomena, such as dark matter and dark energy, on the cosmological scales.
+
+\vspace{2mm}
+\noindent
+Strong gravitational lensing by galaxies provide us a unique opportunity to understand the nature of gravity on the galactic and extra-galactic scales.
+Unlike the traditional way to use the Einstein radius from electromagnetic domain, in the recent paper~\cite{Yang:2018bdf}, we propose a multi-messenger approach by combining data from both gravitational wave and the corresponding electromagnetic  counterpart.
+The time-delays among multiple gravitational wave events and the multiple images of electromagnetic counterparts are the indicators of the same lensing mass.
+Hence, we can use the completely independent multi-messenger datasets to exam the consistency relationship arising in  general relativity.
+To demonstrate the robustness of this approach, we calculate the different time-delay predictions between general relativity and some viable models of modified gravity. 
+
+\vspace{2mm}
+\noindent
+We deliver two new progresses in testing gravity, namely a new modelling of lensing potential and a new testing window.  The constraint from solar system tells us that, a successful alternative gravity model must screen the fifth force on these
+scales~\cite{Joyce:2014kja}. Moreover, to avoid the inconsistency of the lens model with modified gravity, such as Singular Isothermal Sphere (SIS) model, we evade to modify the dynamics below kpc scale, i.e. we assume the GR is restored below kpc scale.
+Inspired by the viable screening mechanism~\cite{Joyce:2014kja}, we model
+$\Sigma$ via a step-like function with the
+transition scale from $10$ to $20$ kpc.
+
+\vspace{2mm}
+\noindent
+We propose a new multi-messenger approach to test gravity.
+This is inspired by two factors.
+The first is that both image and time-delay signals can be used to reconstruct the lensing mass.
+And the  effect of modified gravity  is involved into these two observables in different manners.
+Hence, GR gives a unique relationship between these two observables. We can verify this consistency relation.
+The second is that, compared with lensed quasar, GW+EM system provides a better uncertainties both in image reconstruction and time-delay measurement.
+This allows us to improve the estimation accuracy.
+
+
+
+
+
+\vspace{5mm}
+
+\section{\textcolor{color1}{\textbf{Prospects of my future research }}}
+
+\vspace{2mm}
+\noindent
+Having done such works above, I obtain rich experiences in the data analysis of traditional EM or GW applied to the cosmology. Also, I have learned the basics of gravitational wave physics and strong gravitational lensing. Thus, I expect to continue working on the related subjects. That is, using the upcoming multi-messenger observations (EM, GW and strong lensed of them) to explore the cosmology and test the gravity theory.
+
+\vspace{2mm}
+\noindent
+\textcolor{color1}{\textbf{Probe the cosmology}}
+The potential new probes of cosmology compared to the traditional EM observations include the GW standard sirens which can give us the luminosity distance and the strong gravitational lensing system which can provide us the diameter distance information. 
+
+\vspace{2mm}
+\noindent
+The main challenges of the GW standard sirens are the accuracy of the distance measurement and the accessibility of redshift information. The precise inference of distance relies on the well modeled gravitational waveform, the detector noise spectral density, and the localization of the source. For the model of the waveform, Ma \textit{et al.} proposed that the eccentricity of the waveform can help to improve the accuracy of the source localization, which should also increase the accuracy of the distance measurements. Thus it inspires me to consider its influence on the cosmological constraints.
+In addition, recently, Belgacem \textit{et al.} proposed the modified gravitational-wave propagation as the standard sirens in MG theory~\cite{Belgacem:2018lbp}. They find that, in generic modified gravity models, the effect of modified GW propagation dominates over that of w(z), making modified GW propagation a crucial observable for dark energy studies with standard sirens. This work inspires me to consider the GW standard sirens as a probe to constrain the MG.
+
+
+
+\vspace{2mm}
+\noindent
+Strong gravitational lensing (SGL) can also serve as a probe to the cosmology. The work I did before~\cite{Yang:2017bkv} is combining the GW standard sirens and SGL to test the distance duality relationship. Moreover, as we know, the different data sets are helpful to break the degeneracy between the cosmological parameters. Thus the combinations of the traditional EM observation CMB, SNe Ia, BAO with the future new observations GW and strong lensed GW+EM are expected to provide the most tight constraints of our cosmological parameters. 
+
+\vspace{2mm}
+\noindent
+Though we can only implement the forecasting on the applications of future GW standard sirens and SGL now, as more and more real GW and EM counterpart events 
+are detected in the future, a more powerful and fast data analysis method is required. Gaussian process as a machine learning method is suitable to process the large data sets. It can not only help to construct the template of the GW waveform for a fast and precise estimation of the waveform parameters (such as the distance which can infer the cosmology), but also take part in the output data sets of distance-redshift for constraining the cosmological model in a non-parametric approach which may lead new and interesting results.  
+
+\vspace{2mm}
+\noindent
+\textcolor{color1}{\textbf{Strong gravitational lensing and test of gravity}}
+As a novice to the strong gravitational lensing, I recently finished one work on using time-delay of strong lensed GW+EM as a new test of gravity theory~\cite{Yang:2018bdf}.
+In this work, we just proposed a new idea and calculate the effects of modified gravity (MG) in the anomalies of time-delay for one typical SGL system under a simple singular isothermal sphere (SIS) lens model. This work is the theoretical basis  for using the time-delay of strong lensed multi-messengers to constrain various modified gravity theory. I expect to extend this research as the following.
+
+\vspace{2mm}
+\noindent
+At the theory and model aspect, first, the lens model can be extended to a more general power-law form~\cite{Holanda:2017jrj}, which is  more realistic in the SGL observations. The calculation may be more complicated but also straight forward. Second, we only consider a general deviation of MG from GR, the specific modified gravity theory can also be considered as a special test to obtain whether and how we can exclude or constrain the specific MG theory.
+
+\vspace{2mm}
+\noindent
+While, at the real observations aspect, since the our approach is not limited by the type of source, we can apply our method to the exist strong lensed quasar data sets.  This requires us the skills of processing the real strong lensed observations.
+
+\vspace{2mm}
+\noindent
+The gravitational lensing is one of the most powerful probe to the structure of galaxy and the matter distribution of our Universe. As proposed by Liao \textit{et al.}~\cite{Liao:2018ofi}, the anomalies in time delays of lensed GWs can be the indicator of the dark matter substructures. This effect can also have  degeneracy with the MG, thus an indepth investigation and comparison of the MG effect with the lens model is essential. In addition, the magnification of the SGL may also provide us many information about the lens model, lensing potential, which can serve as another probe of the galaxy structure and gravity theory. I hope to learn more about the gravitational lensing knowledge related to theory and experiment from future's cooperators and do some interesting works in this field. 
+
+
+
+\section{~~~~~~~~~~~~~~~~and references}
+
+
+
+
+
+
+
+
+\vspace{-13.7mm}
+
+
+\bibliographystyle{unsrt}
+\bibliography{ref}
+
+
+
+
+\end{document}
